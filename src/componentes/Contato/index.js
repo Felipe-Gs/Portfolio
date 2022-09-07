@@ -3,7 +3,6 @@ import React, {useState} from 'react'
 import qrgit from '../imgs/qrgit.png';
 import qrlink from '../imgs/qrlink.png';
 import qrintagram from '../imgs/qrinstagram.png';
-import qrcode from '../imgs/qr.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import Modal from 'react-bootstrap/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -22,10 +21,7 @@ export default function Contato() {
         setQr(qrgit);
         setEmail('https://github.com/Felipe-Gs')
     }
-    const verificar2 =()=>{
-        setQr(qrcode);
-        setEmail('contatofelipegomes.dev@...')
-    }
+
     const verificar3 =()=>{
         setQr(qrintagram);
         setEmail('https://www.instagram.com/_lipe_gs/')
@@ -58,24 +54,14 @@ export default function Contato() {
                 </Modal.Footer>
             </Modal>
 
-        <div style={{display:'flex', justifyContent:"space-around"}}>
-            <div>
-                <FontAwesomeIcon onClick={()=>{handleShow() ; verificar1()}} icon={["fab", "github"]} color='#F0DB4F' size='3x' /> 
-            </div>
-
-            <div>
-                <FontAwesomeIcon onClick={()=>{handleShow() ; verificar1()}} icon={["fab", "mail"]} color='white' size='3x' />
-                <Button onClick={()=>{handleShow() ; verificar2()}} size='mg' style={{backgroundColor:'212529'}}>Gmail</Button> 
-            </div>
-
-        </div>
 
         <div style={{display:'flex', justifyContent:"space-around", marginTop:'2%'}}>
+            <FontAwesomeIcon onClick={()=>{handleShow() ; verificar1()}} icon={["fab", "github"]} color='#a66a5d' cursor={'pointer'} size='3x' /> 
             <div>
-            <FontAwesomeIcon onClick={()=>{handleShow() ; verificar3()}} icon={["fab", "instagram"]} color='white' size='3x' />
+                <FontAwesomeIcon onClick={()=>{handleShow() ; verificar3()}} icon={["fab", "instagram"]} color='#a66a5d' cursor={'pointer'} size='3x' />
             </div>
             <div>
-            <FontAwesomeIcon onClick={()=>{handleShow() ; verificar4()}} icon={["fab", "linkedin"]} color='#ffff' size='3x' />
+                <FontAwesomeIcon onClick={()=>{handleShow() ; verificar4()}} icon={["fab", "linkedin"]} color='#a66a5d' cursor={'pointer'} size='3x' />
             </div>
         </div>
         

@@ -18,7 +18,7 @@ export default function Sobre() {
                 
                 <p style={{color:"whitesmoke"}}>Gosto de praticar esportes, estudo sobre finanças, estou sempre ligado nas novas tecnologias e busco sempre está atualizado no mercado, sou bastante proativo, gosto de trabalhar em equipe, dedicação é uma das minhas principais caracteristicas.</p>
             </div>
-            <div style={{justifyContent:"center", alignItems:"center"}}>
+            <div data-aos="fade-up" style={{justifyContent:"center", alignItems:"center"}}>
                 <img alt='foto de minha de perfil' width={150} style={{borderRadius:'50%'}} src={fotoperfil}/>
             </div>
           </div>

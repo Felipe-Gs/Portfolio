@@ -39,8 +39,8 @@ export default function Carrosel(){
             </SwiperSlide>
             <SwiperSlide style={SwiperSlider}>
                 <div style={{display:"flex", flexDirection:"column", alignItems:"center" }} >
-                    <FontAwesomeIcon className='iconeAnimado' icon={["fab", "github"]} size={'3x'}/>
-                    <span style={{color: '#353839'}}>GitHub</span>
+                    <FontAwesomeIcon className='iconeAnimado' color='green' icon={["fab", "github"]} size={'3x'}/>
+                    <span style={{color: 'green'}}>GitHub</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide style={SwiperSlider}>

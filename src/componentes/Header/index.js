@@ -18,7 +18,7 @@ export default function Header() {
                 <Nav className="me-auto">
                   <Nav.Link href="/Habilidades" style={{color:"whitesmoke"}}>Skills</Nav.Link>
                   <NavDropdown   title="Contato" id="basic-nav-dropdown">
-                    <NavDropdown.Item  href='https://api.whatsapp.com/send?phone=5588993108812&text=Ol%C3%A1%2C%20bom%20dia' target='_blanck'>Whatsapp</NavDropdown.Item>
+                    <NavDropdown.Item  href='https://www.linkedin.com/in/felipe-gs/' target='_blanck'>Linkedin</NavDropdown.Item>
                     <NavDropdown.Item href="https://www.instagram.com/_lipe_gs/" target='_blanck'>
                       Instagram
                     </NavDropdown.Item>
