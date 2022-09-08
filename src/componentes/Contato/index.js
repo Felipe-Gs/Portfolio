@@ -56,12 +56,12 @@ export default function Contato() {
 
 
         <div style={{display:'flex', justifyContent:"space-around", marginTop:'2%'}}>
-            <FontAwesomeIcon onClick={()=>{handleShow() ; verificar1()}} icon={["fab", "github"]} color='#a66a5d' cursor={'pointer'} size='3x' /> 
-            <div>
-                <FontAwesomeIcon onClick={()=>{handleShow() ; verificar3()}} icon={["fab", "instagram"]} color='#a66a5d' cursor={'pointer'} size='3x' />
+            <FontAwesomeIcon className='icone' onClick={()=>{handleShow() ; verificar1()}} icon={["fab", "github"]} color='white' cursor={'pointer'} size='3x' /> 
+            <div >
+                <FontAwesomeIcon className='icone' onClick={()=>{handleShow() ; verificar3()}} icon={["fab", "instagram"]} color='white' cursor={'pointer'} size='3x' />
             </div>
             <div>
-                <FontAwesomeIcon onClick={()=>{handleShow() ; verificar4()}} icon={["fab", "linkedin"]} color='#a66a5d' cursor={'pointer'} size='3x' />
+                <FontAwesomeIcon className='icone' onClick={()=>{handleShow() ; verificar4()}} icon={["fab", "linkedin"]} color='white' cursor={'pointer'} size='3x' />
             </div>
         </div>
         
