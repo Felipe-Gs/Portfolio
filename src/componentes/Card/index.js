@@ -15,6 +15,9 @@ import NLW from '../imgs/icon.png';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
+//css
+import './style.css'
+
 export default function Carde() {
   useEffect(()=>{
     Aos.init({duration: 2000});
@@ -22,9 +25,9 @@ export default function Carde() {
     function GridExample() {
         return (
           <>
-          <Row xs={1} md={4} className="g-4">
+          <Row xs={1} md={4} className="justify-content-center ">
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up">
+              <Col data-aos="fade-up" className="text-center" >
                 <Card className='cardd'>
                   <Card.Img variant="top" src={googleAuth} />
                   <Card.Body>
@@ -39,8 +42,8 @@ export default function Carde() {
               </Col>
             ))}
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up">
-                <Card   className='cardd'>
+              <Col data-aos="fade-up" className="text-center">
+                <Card className='cardd'>
                   <Card.Img variant="top" src={teste} />
                   <Card.Body>
                     <Card.Title>Netflix web</Card.Title>
@@ -54,8 +57,8 @@ export default function Carde() {
               </Col>
             ))}
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up">
-                <Card  className='cardd'>
+              <Col data-aos="fade-up" className="text-center">
+                <Card  className='cardd' >
                   <Card.Img variant="top" src={NLW} />
                   <Card.Body>
                     <Card.Title>App bolão da Copa NLW</Card.Title>
@@ -69,7 +72,7 @@ export default function Carde() {
               </Col>
             ))}
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up">
+              <Col data-aos="fade-up" className="text-center">
                 <Card className='cardd'>
                   <Card.Img variant="top" src={pae} />
                   <Card.Body>
@@ -84,7 +87,7 @@ export default function Carde() {
               </Col>
             ))}
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up" >
+              <Col data-aos="fade-up" className="text-center">
                 <Card className='cardd'>
                   <Card.Img variant="top" src={portifolio} />
                   <Card.Body>
@@ -99,7 +102,7 @@ export default function Carde() {
               </Col>
             ))}
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up" size={'lg'}>
+              <Col data-aos="fade-up" className="text-center">
                 <Card className='cardd'>
                   <Card.Img variant="top" src={net} />
                   <Card.Body>
@@ -115,7 +118,7 @@ export default function Carde() {
             ))}
 
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up" size={'lg'}>
+              <Col data-aos="fade-up" className="text-center">
                 <Card className='cardd'>
                   <Card.Img variant="top" src={portApp} />
                   <Card.Body>
@@ -130,7 +133,7 @@ export default function Carde() {
               </Col>
             ))}
             {Array.from({ length: 1 }).map((_, idx) => (
-              <Col data-aos="fade-up" size={'lg'}>
+              <Col data-aos="fade-up" className="text-center">
                 <Card className='cardd'>
                   <Card.Img variant="top" src={''} />
                   <Card.Body>
