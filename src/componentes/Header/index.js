@@ -18,7 +18,7 @@ export default function Header() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                   <Nav.Link className="link-ligth" style={{color:"whitesmoke", textDecoration:'none'}}><Link to='/Habilidades' style={{textDecoration: 'none', color: 'inherit'}}>Skills</Link></Nav.Link>
-                  <NavDropdown title="Contato" id="basic-nav-dropdown">
+                  <NavDropdown style={{ transition: "all 0.3s ease-in-out"}} title="Contato" id="basic-nav-dropdown">
                     <NavDropdown.Item className="dropdown-item" href='https://www.linkedin.com/in/felipe-gs/' target='_blanck'>Linkedin</NavDropdown.Item>
                     <NavDropdown.Item href="https://www.instagram.com/_lipe_gs/" target='_blanck'>
                       Instagram

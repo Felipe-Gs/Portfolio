@@ -45,3 +45,8 @@
   -webkit-transform: scale(1);
   transform: scale(1.2);
 }
+
+#basic-nav-dropdown {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
