@@ -140,7 +140,7 @@ export default function Carde() {
                     <Card.Title>Em breve</Card.Title>
                     <Card.Text>
                       Projeto sendo criado, logo mais estará disponivel...<br/>
-                      <Button href="https://github.com/Felipe-Gs/Clone_Netflix_ReactNative" target='_blanck' size='lg' variant="secondary">Ver no github</Button>
+                      <Button href="https://github.com/Felipe-Gs" target='_blanck' size='lg' variant="secondary">Ver no github</Button>
                     </Card.Text>
                   
                   </Card.Body>

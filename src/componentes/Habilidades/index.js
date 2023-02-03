@@ -6,9 +6,11 @@ import Carrosel from '../Carrosel'
 import Contato from '../Contato'
 import img3 from '../imgs/img3.png';
 
+
 export default function Habilidades() {
   return (
-    <div style={{ backgroundImage: `url(${img3})`}}>
+    <>
+    <div style={{ backgroundImage: `url(${img3})`,  backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
         <div><Header/></div>
         <div style={{padding:20, textAlign:"center", marginTop:'2%'}}>
             <p style={{fontSize:20, color:"whitesmoke"}}>Skills e Projetos</p>
@@ -26,5 +28,6 @@ export default function Habilidades() {
             <Footer/>
         </div>
     </div>
+    </>
   )
 }
