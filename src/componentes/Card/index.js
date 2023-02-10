@@ -4,8 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import teste from '../imgs/teste.png'
-import dio from '../imgs/dio.jpg';
-import hotel from '../imgs/hotel.png';
+import onibusApp from '../imgs/onibusApp.png'
 import pae from '../imgs/pae.jpeg';
 import portifolio from '../imgs/portifolio.png';
 import net from '../imgs/net.png';
@@ -120,12 +119,12 @@ export default function Carde() {
             {Array.from({ length: 1 }).map((_, idx) => (
               <Col data-aos="fade-up" className="text-center">
                 <Card className='cardd'>
-                  <Card.Img variant="top" src={portApp} />
+                  <Card.Img variant="top" src={onibusApp} />
                   <Card.Body>
-                    <Card.Title>App Portifolio desenvolvido com React Native</Card.Title>
+                    <Card.Title>Ônibus app</Card.Title>
                     <Card.Text>
-                      Contem informações, projetos e contato, projeto bem interessante de trabalhar e treinar a tecnologia<br/>
-                      <Button href="https://github.com/Felipe-Gs/PortifolioAPP" target='_blanck' size='lg' variant="secondary">Ver no github</Button>
+                     Projeto fullStack que se trata de um app de monitoramento de alunos para ver quem volta e quem não volta no ônibus para evitar um possível transtorno de ter que esquecer algum aluno em outra cidade<br/>
+                      <Button href="https://github.com/Felipe-Gs/OnisbusApp" target='_blanck' size='lg' variant="secondary">Ver no github</Button>
                     </Card.Text>
                   
                   </Card.Body>
