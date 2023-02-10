@@ -36,7 +36,8 @@ export default function Home() {
                 <p data-aos="fade-up" style={{color:"whitesmoke"}}>Tenho 20 anos, me chamo Felipe Gomes da Silva, curso Engenharia de Software na Universidade Federal do Ceará, busco uma vaga de emprego como desenvolvedor Front end</p>
               </div>
               <div>
-                <Button href='https://docs.google.com/uc?export=download&id=1XKGbzU2NyKVjhSUCWKaaHZJqKkGQIE7T' target='_blanck' variant="dark" style={{width:'50%', marginTop:'2%'}}>Baixe meu curriculo</Button> 
+                <Button href='https://docs.google.com/uc?export=download&id=1QzKQWbozgDCSSFSRhcQz4xuHKNPzDoHW' target='_blanck' variant="dark" style={{width:'50%', marginTop:'2%'}}>Baixe meu curriculo</Button> 
+                              
               </div>
             </div>
         </div>
