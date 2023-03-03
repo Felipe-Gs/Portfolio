@@ -1,0 +1,32 @@
+.div-container {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-pula {
+  animation: pula 1s infinite ease-in-out;
+}
+
+@keyframes pula {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 915px) {
+  /* regras CSS aqui */
+  .div-text {
+    color: green;
+    margin-bottom: 10rem;
+  }
+  .text-nome {
+    color: green;
+    font-size: 10px;
+  }
+}
