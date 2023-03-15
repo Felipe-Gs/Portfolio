@@ -36,7 +36,7 @@ export default function Sobre() {
             <p data-aos="fade-up" style={{ color: "white" }}>
               Tenho 20 anos, me chamo Felipe Gomes da Silva, curso Engenharia de
               Software na Universidade Federal do Ceará, busco uma vaga de
-              emprego como desenvolvedor Front end
+              emprego como desenvolvedor.
             </p>
             <p style={{ color: "whitesmoke" }}>
               Gosto de praticar esportes, estudo sobre finanças, estou sempre
