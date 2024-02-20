@@ -89,15 +89,6 @@ export default function Carde() {
                                  {item.subTitle}
                                  <br />
                                  <Button
-                                    style={{
-                                       position: "absolute",
-                                       justifyContent: "center",
-                                       display: "flex",
-                                       alignItems: "center",
-                                       bottom: "0px",
-                                       left: "50%",
-                                       transform: "translateX(-50%)",
-                                    }}
                                     href={item.link}
                                     target="_blanck"
                                     size="lg"
