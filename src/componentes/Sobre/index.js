@@ -40,9 +40,15 @@ export default function Sobre() {
                      JavaScript, TypeScript, Testes Unitarios, entre outras
                   </h5>
                   <p data-aos="fade-up" style={{ color: "white" }}>
-                     Tenho 20 anos, me chamo Felipe Gomes da Silva, curso
-                     Engenharia de Software na Universidade Federal do Ceará,
-                     busco uma vaga de emprego como desenvolvedor.
+                     Desenvolvedor Full Stack /QA, com expertise destacada em
+                     Android e iOS, qualidade de software e análise de
+                     requisitos. Possuo experiência sólida no desenvolvimento de
+                     aplicativos móveis utilizando React Native, e também
+                     contribuí significativamente para projetos web com Next.js,
+                     TypeScript e Firebase. Destaco-me na implementação de
+                     testes automatizados, com Cypress, Selenium ,Jest e Testing
+                     Library, garantindo a qualidade e confiabilidade das
+                     soluções entregues
                   </p>
                   <p style={{ color: "whitesmoke" }}>
                      Gosto de praticar esportes, estudo sobre finanças, estou

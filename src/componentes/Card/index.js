@@ -9,6 +9,7 @@ import googleAuth from "../imgs/googleAuth.jpg";
 import redesocial from "../imgs/redesocial.png";
 import NLW from "../imgs/icon.png";
 import Home from "../imgs/Home.png";
+import isp from "../imgs/isp.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -42,11 +43,11 @@ export default function Carde() {
          link: "https://github.com/Felipe-Gs/Google-auth",
       },
       {
-         title: "Rede Social App",
+         title: "ISP selling",
          subTitle:
-            "Projeto fullStack criado com React native, node.js, postgreSQL entre outras, o app te várias funcionalidades, dentre elas, criar usuario, deletar, fazer postagens, visualizar postagens dos outros usúarios",
-         image: redesocial,
-         link: "https://github.com/Felipe-Gs/RedeSocialApp",
+            "Projeto Web FullStack Freelancer, desenvolvido com React e Firebase, SAAS web, trabalhei em dupla do desenvolvimento usando Git no controle de versão.",
+         image: isp,
+         link: "https://github.com/ISP-Selling/Front-end",
       },
       {
          title: "App bolão da Copa NLW",
@@ -88,12 +89,21 @@ export default function Carde() {
                                  {item.subTitle}
                                  <br />
                                  <Button
+                                    style={{
+                                       position: "absolute",
+                                       justifyContent: "center",
+                                       display: "flex",
+                                       alignItems: "center",
+                                       bottom: "0px",
+                                       left: "50%",
+                                       transform: "translateX(-50%)",
+                                    }}
                                     href={item.link}
                                     target="_blanck"
                                     size="lg"
                                     variant="secondary"
                                  >
-                                    Ver no github
+                                    Ver no Github
                                  </Button>
                               </Card.Text>
                            </Card.Body>

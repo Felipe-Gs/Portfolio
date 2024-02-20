@@ -75,7 +75,7 @@ export default function Home() {
                      <div>
                         <Button
                            data-aos="fade-up"
-                           href="https://docs.google.com/uc?export=download&id=1QzKQWbozgDCSSFSRhcQz4xuHKNPzDoHW"
+                           href="https://drive.google.com/file/d/1MsRdae9ujONrmZgtBFM_9wPvfg5_edCd/view?usp=sharing"
                            target="_blanck"
                            style={{
                               width: "100%",
